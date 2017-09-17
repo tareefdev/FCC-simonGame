@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>simon game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+        <div class="container">
+        <div class="simon-circle">
+            <div id="SpringGreen" class="pad"></div>
+            <div id="red" class="pad"></div>
+            <div id="yellow" class="pad"></div>
+            <div id="blue" class="pad"></div>
+            <div class="controls">
+                <div class="title">Simon</div>
+                <div id="led" class="led inline"></div>
+                <div id="display" class="display inline">--</div>
+                <div id="start" class="start inline">Start</div>
+                <div id="strict" class="strict inline">Strict</div>
+                <div class="switchContainer">
+                    <p class="off inline">OFF</p>
+                    <div id="outter-switch" class="outter-switch inline">
+                        <div id="inner-switch" class="inner-switch"></div>
+                    </div>
+                    <p class="on inline">ON</p>
+                </div>
+            </div>
+        </div>
+       <div class="about"><h3>Made with &hearts; by Tareef</h3></div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/0.11.3/Tone.min.js"></script>
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="simon.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,151 @@
+body {
+  background: #ead4b6 url("http://api.thumbr.it/whitenoise-361x370.png?background=ebd5b7ff&noise=626262&density=5&opacity=6");
+  
+}
+.container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.simon-circle {
+    margin:  0 auto;
+    margin-top: 50px;
+    width: 460px;
+    height: 460px;
+    border: solid 15px #333333;
+    border-radius: 500px;
+    background-color: #333333;
+}
+
+.pad {
+    margin: 0;
+    float: left;
+    position: relative;
+    width: 210px;
+    height: 210px;
+    border: solid 10px #333333;
+    z-index: 8;
+}
+
+.led {
+    position: absolute;
+    margin:  0 auto;
+    right: 33px;
+    top: 87px;
+    float: right;
+    width: 5px;
+    height: 5px;
+    border: solid 1px #333333;
+    border-radius: 5px;
+}
+
+#red { 
+    background-color: #9f0f17;
+    border-radius: 0 300px 0 0;
+}
+
+#SpringGreen  { 
+    background-color :#00a74a;
+    border-radius: 300px 0 0 0;
+}
+
+#blue { 
+    background-color: #094a8f;
+    border-radius: 0 0 300px 0;
+}
+
+#yellow { 
+    background-color: #cca707;
+    border-radius: 0 0 0 300px;
+}
+
+.controls {
+    width: 200px;
+    height: 200px;
+    margin-left: 120px;
+    margin-top: 120px;
+    background-color: #ece7ee;
+    border: solid 10px #333333;
+    border-radius: 150px;
+    position: absolute;
+    z-index: 10;
+}
+
+.title {
+    font-size: 47px;
+    margin-top: 25px;
+    font-weight: bold;
+    margin-bottom: 5px
+}
+
+.inline  {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.display {
+    border: solid 2px #333333;
+    border-radius: 10px;
+    color: #3f060e;
+    width: 43px;
+    height: 40px;
+    font-size: 30px;
+    background-color: #32050c;
+    font-family: monospace;
+    vertical-align: middle;
+    line-height: 40px;
+    box-shadow: -1px 2px 3px 0px rgba(0,0,0,0.75);
+}
+
+.start, .strict {
+    margin: 0px;
+    margin-left: 20px;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    border: solid 4px #333333;
+    border-radius: 30px;
+    color: #333333;
+    font-size: 12px;
+    line-height: 80px;
+    font-weight: bold;
+    pointer-events: none;
+    box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+.start {
+    background-color: red;
+}
+
+.strict {
+    background-color: yellow;
+}
+
+.switchContainer {
+    margin: 15px 0 0 0;
+}
+
+.outter-switch {
+    width: 40px;
+    height: 20px;
+    border: solid 1px #333333;   
+    background-color: #333333;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.inner-switch {
+    width: 15px;
+    height: 20px;
+    background-color: #3193de;
+    border-radius: 4px;
+}
+
+button {
+    display: block;
+}
+
+.on, .off {
+    font-size: 12px;
+    font-weight: bold;
+}
